@@ -2,12 +2,13 @@
   "name": "node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
   "scripts": {
     "app": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "http": "http-server .",
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "start": "http-server dist -c -1"
   },
   "author": "Oskar ALX",
   "license": "ISC",
