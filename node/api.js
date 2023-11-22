@@ -47,3 +47,12 @@ export const signInUser = (dto) =>  fetch('https://reqres.in/api/login', {
 
         res.json()
     })
+
+export default () => {
+    console.log('Eksport Default!');
+}
+
+// Eksport domyslny zmiennej/stalej
+// const person = {name: 'John'};
+
+// export default person;

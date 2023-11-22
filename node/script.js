@@ -8,6 +8,14 @@ import { listUsers, createUser, editUser, deleteUser, signInUser } from './api.j
 
 // aPi.listUsers()
 
+// Domyslny eskport / import
+// Nazwa API jest dowolna -> my ja definiujemy
+// ( Ja nie polecam domyslnych eksportow/importow )
+import API from './api.js';
+
+API();
+
+
 const $usersList = document.getElementById('users-list');
 const $createButton = document.getElementById('create');
 const $editForm = document.getElementById('update-form');
