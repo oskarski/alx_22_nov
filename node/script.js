@@ -1,4 +1,5 @@
-import { listUsers, createUser, editUser, deleteUser, signInUser } from './api.js';
+// import { listUsers, createUser, editUser, deleteUser, signInUser } from './api.js';
+import { listUsers, createUser, editUser, deleteUser, signInUser, getUser } from './api-axios.js';
 
 // importuj listUsers i aliasuj getUsersFromApi
 // import { listUsers as getUsersFromApi } from './api.js';
@@ -54,6 +55,8 @@ const $deleteBtn = document.getElementById('delete-btn');
 // });
 
 // Pobieranie szczegolow
+
+getUser(123123)
 
 listUsers()
     .then(users => {
