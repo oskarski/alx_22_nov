@@ -4,9 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "node app.js",
+    "app": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "http": "http-server ."
+    "http": "http-server .",
+    "dev": "parcel index.html"
   },
   "author": "Oskar ALX",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "axios": "^1.6.2"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "parcel": "^2.10.3"
   }
 }
