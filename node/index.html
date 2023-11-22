@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./script.js" type="module" defer></script>
+
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="create">Dodaj nowego usera</button>
+
+    <ul id="users-list"></ul>
+
+    <form id="update-form">
+        <!-- Zakladamy, ze ten formularz renderujemy dla uzytkownika o id 1 -->
+        <input type="hidden" name="id" value="1" />
+        <input type="text" name="name" placeholder="Imie" />
+        <input type="text" name="job" placeholder="Praca" />
+
+        <button>Zapisz</button>
+    </form>
+
+    <form id="login-form">
+        <input type="text" name="email" placeholder="Email"/>
+        <input type="text" name="password" placeholder="Haslo">
+
+        <button>Zaloguj</button>
+
+        <span id="error-msg" class="error"></span>
+    </form>
+    
+    <button id="delete-btn">Usun uzytowinka od ID 1</button>
+</body>
+</html>
