@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "tomek@example.com"
+    },
+    {
+      "id": 2,
+      "email": "ola@example.com"
+    }
+  ],
+  "posts": [
+    {"id": 1, "title": "Tytul wpisu"}
+  ]
+}
